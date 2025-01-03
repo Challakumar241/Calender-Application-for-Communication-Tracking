@@ -1,0 +1,49 @@
+.dashboard {
+    padding: 40px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}

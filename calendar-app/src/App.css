@@ -1,0 +1,12 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-sections {
+  display: flex;
+  justify-content: space-between;
+}

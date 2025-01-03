@@ -1,0 +1,15 @@
+.notifications {
+    width: 40%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overdue-notifications {
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+  }
+  

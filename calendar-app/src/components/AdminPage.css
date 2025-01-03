@@ -1,0 +1,169 @@
+/* AdminPage.css */
+
+.admin-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .company-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .company-form input,
+  .company-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .company-form textarea {
+    resize: none;
+  }
+  
+  .company-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .company-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .existing-companies {
+    max-width: 600px;
+  }
+  
+  .existing-companies h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .existing-companies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .existing-companies li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .existing-companies li div {
+    flex-grow: 1;
+  }
+  
+  .existing-companies li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .existing-companies li button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .existing-companies li button:nth-child(2) {
+    background-color: #4caf50;
+  }
+  
+  .existing-companies li button:nth-child(2):hover {
+    background-color: #388e3c;
+  }
+  .admin-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .company-form, .communication-method-form {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  label {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .existing-companies, .existing-communication-methods {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  li div {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #dc3545;
+  }
+  

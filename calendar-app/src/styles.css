@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F7FA;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button Styles */
+.button {
+    background-color: #50E3C2;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45D8B6; /* Slightly darker for hover effect */
+}
+
+/* Card Styles */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+/* Notification Styles */
+.notification {
+    background-color: #FF686B; /* Error Color */
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #E6E6E6;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4A90E2; /* Table header color */
+    color: #FFFFFF;
+}
+
+/* Calendar Styles */
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-day {
+    flex: 1; 
+    min-width: 100px; /* Change based on your design */
+    height: 100px; /* Change based on your design */
+    border: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Required for the logs of communication */
+}
+
+.calendar-day .log {
+    background-color: #50E3C2; /* Log color */
+    color: #FFFFFF;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px; /* Positioning it at the bottom of the day */
+    left: 5px;
+    right: 5px;
+    border-radius: 3px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .calendar-day {
+        height: 70px; /* Adjust for smaller screens */
+    }
+}
